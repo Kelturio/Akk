@@ -7,6 +7,6 @@
         root.returnExports = factory();
   }
 }(typeof self !== 'undefined' ? self : this, function () {
-    
+    console.warn('Hallo Werner!')
     return {};
 }));
