@@ -425,6 +425,11 @@
     cfg: {
         paths
     }
+    addPathsToRequire () {
+      requirejs.config({
+          paths: this.cfg.paths,
+      })
+    }
   }
   return akk
 }))
