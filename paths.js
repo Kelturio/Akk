@@ -422,11 +422,26 @@
   /* eslint-enable strict, func-names, prefer-arrow-callback */
   'use strict'
   const paths = {
-    'blueimp-md5': ['https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.10.0/js/md5.min'],
-    'localforage': ['https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.min'],
-    'lodash'     : ['https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min'],
-    'ramda'      : ['https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min'],
-    'sugar'      : ['https://cdnjs.cloudflare.com/ajax/libs/sugar/2.0.4/sugar.min'],
+    'blueimp-md5': [
+      'http://git.l5590/LibsJS/blueimp-md5/2.10.0/js/md5.min',
+      'https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.10.0/js/md5.min',
+    ],
+    'localforage': [
+      'http://git.l5590/LibsJS/localforage/1.7.3/localforage.min',
+      'https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.min',
+    ],
+    'lodash'     : [
+      'http://git.l5590/LibsJS/lodash.js/4.17.11/lodash.min',
+      'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min',
+    ],
+    'ramda'      : [
+      'http://git.l5590/LibsJS/ramda/0.25.0/ramda.min',
+      'https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min',
+    ],
+    'sugar'      : [
+      'http://git.l5590/LibsJS/sugar/2.0.4/sugar.min',
+      'https://cdnjs.cloudflare.com/ajax/libs/sugar/2.0.4/sugar.min',
+    ],
   }
   return paths
 }))
