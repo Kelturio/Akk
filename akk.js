@@ -429,7 +429,6 @@
         'ramda'      : ['https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min'],
         'localforage': ['https://cdnjs.cloudflare.com/ajax/libs/localforage/1.7.3/localforage.min'],
         'blueimp-md5': ['https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.10.0/js/md5.min'],
-        'akk'        : [`https://kelturio.github.io/Akk/akk.js?_=${Date.now()}`],
       }
     }
   }
