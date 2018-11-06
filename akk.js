@@ -423,13 +423,14 @@
   'use strict'
   const akk = {
     cfg: {
-        paths
+      paths,
     },
     addPathsToRequire () {
+      console.log('addPathsToRequire', this)
       requirejs.config({
-          paths: this.cfg.paths,
+        paths: this.cfg.paths,
       })
-    }
+    },
   }
   return akk
 }))
