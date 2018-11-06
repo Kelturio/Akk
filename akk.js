@@ -409,16 +409,17 @@
 
 /* eslint-env browser, es6, greasemonkey */
 
-(function (root, factory) {
-  'use strict'
+/* eslint-disable strict, func-names, prefer-arrow-callback */
+(function iife (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define([], factory)
   } else if (typeof module === 'object' && module.exports) {
     module.exports = factory()
   } else {
-    root.returnExports = factory()
+    root.akk = factory()
   }
 }(typeof self === 'undefined' ? this : self, function () {
+  /* eslint-enable strict, func-names, prefer-arrow-callback */
   'use strict'
   console.warn('Hallo Werner!')
   return {}
