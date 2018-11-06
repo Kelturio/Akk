@@ -423,7 +423,7 @@
   'use strict'
   const akk = {
     cfg: {
-        paths: paths
+        paths
     }
   }
   return akk
